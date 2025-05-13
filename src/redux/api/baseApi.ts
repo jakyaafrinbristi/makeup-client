@@ -19,6 +19,7 @@ const baseQuery =fetchBaseQuery({baseUrl:"http://localhost:8000/api",
 export const baseApi = createApi({
     reducerPath:'baseApi',
     baseQuery:baseQuery,
+        tagTypes:["Users","Products","Orders"],
 
     endpoints:()=>({})
 })
