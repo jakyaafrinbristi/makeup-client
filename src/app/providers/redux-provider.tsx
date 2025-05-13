@@ -10,6 +10,7 @@ export default function ReduxProvider({ children }: { children: React.ReactNode 
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
         {children}
+        
       </PersistGate>
     </Provider>
   );

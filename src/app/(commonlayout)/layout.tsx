@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 import { Footer } from "@/components/shared/Footer";
-import { Navbar } from "@/components/shared/Navbar";
+import Navbar from "@/components/shared/Navbar";
 
 
 

@@ -32,6 +32,7 @@ export function Footer() {
             <Link href="/contact-us" className="flex items-center justify-center lg:justify-start gap-2 hover:text-pink-500 transition">
               <FaPhoneAlt /> Contact
             </Link>
+            
           </div>
         </div>
 
