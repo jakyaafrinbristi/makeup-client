@@ -12,6 +12,7 @@ import {
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { logout } from "@/redux/features/auth/authSlice";
 import { UserCircle, Menu } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
   const dispatch = useAppDispatch();
@@ -110,17 +111,19 @@ export default function Navbar() {
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <button className="focus:outline-none">
-                    <div className="flex items-center gap-2">
-                      {user.image ? (
-                        <img
-                          src={user.image}
-                          alt={user.name}
-                          className="h-8 w-8 rounded-full border-2 border-pink-200 dark:border-pink-700"
-                        />
-                      ) : (
-                        <UserCircle className="h-8 w-8 text-pink-500 dark:text-pink-400" />
-                      )}
-                    </div>
+                     <div className="flex items-center gap-2">
+                {user.image ? (
+  <Image
+    src={user.image}
+    alt={user.name || "User"}
+    width={32}
+    height={32}
+    className="h-8 w-8 rounded-full border-2 border-pink-200 dark:border-pink-700"
+  />
+) : (
+  <UserCircle className="h-8 w-8 text-pink-500 dark:text-pink-400" />
+)}
+              </div>
                   </button>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-48">

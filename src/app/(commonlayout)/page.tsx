@@ -1,5 +1,5 @@
 import Banner from "@/components/banner/page";
-import { HomeAboutSection } from "./aboutUs/page";
+import { HomeAboutSection } from "../../components/aboutUs/page";
 import OfferSection from "./offer/page";
 import BlogPreview from "./homeBlogs/page";
 
