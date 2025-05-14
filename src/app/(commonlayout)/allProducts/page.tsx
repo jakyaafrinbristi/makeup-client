@@ -84,8 +84,8 @@ export default function AllMakeupProducts() {
               <option value="Lips">Lips</option>
               <option value="Skin">Skin</option>
               <option value="Hair">Hair</option>
-              <option value="Hair">Nails</option>
-              <option value="Hair">Tools</option>
+              <option value="Nails">Nails</option>
+              <option value="Tools">Tools</option>
             </select>
           </div>
         </div>

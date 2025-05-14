@@ -76,7 +76,7 @@ const OfferSection = () => {
   }, []);
 
   return (
-    <section className="py-16 mt-12 bg-gradient-to-b from-pink-50 to-white dark:from-pink-900/20 dark:to-gray-900">
+    <section className=" container mx-auto py-16 mt-12 bg-gradient-to-b from-pink-50 to-white dark:from-pink-900/20 dark:to-gray-900">
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-12">

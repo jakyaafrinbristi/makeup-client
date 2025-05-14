@@ -27,14 +27,16 @@ const FeaturedMakeup = () => {
   const products = data?.data || [];
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 py-16 md:py-20 lg:py-24 bg-pink-50/50">
-      <div className="text-center mb-16">
-        <div className="inline-flex items-center justify-center w-14 h-14 bg-pink-100 rounded-full mb-5 shadow-inner">
-          <FiStar className="text-2xl text-pink-600" />
+    <section className="max-w-7xl mx-auto mt-8 px-4 sm:px-6 py-16 md:py-20 lg:py-24 bg-pink-50/50">
+       <div className="text-center mb-16">
+        <div className="inline-flex items-center gap-2 bg-pink-100 dark:bg-pink-900/30 text-pink-600 dark:text-pink-300 px-4 py-2 rounded-full mb-4">
+          <FiStar className="h-5 w-5" />
+          <span className="font-medium">Featured Products</span>
         </div>
-        <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-3">
-          Our Featured Makeup Products
-        </h1>
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">
+          Our Top-Rated Makeup Picks
+        </h2>
+      
         <div className="w-24 h-1.5 bg-gradient-to-r from-pink-400 to-pink-600 rounded-full mx-auto mb-6"></div>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
           Discover our premium makeup collection - a perfect blend of beauty, quality, and innovation.

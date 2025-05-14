@@ -25,7 +25,7 @@ export const HomeAboutSection = () => {
   ];
 
   return (
-    <section className="py-12 bg-pink-50 dark:bg-pink-900/10">
+    <section className="py-12 container mx-auto bg-pink-50 dark:bg-pink-900/10">
       {/* Added div section */}
       <div className="container mx-auto px-6 text-center mb-12">
         <div className="inline-flex items-center gap-2 bg-pink-100 dark:bg-pink-900/30 text-pink-600 dark:text-pink-300 px-4 py-2 rounded-full mb-4">
